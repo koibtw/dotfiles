@@ -1,3 +1,4 @@
+{ lib, ... }:
 {
   networking = {
     hostName = "seber";
@@ -6,7 +7,7 @@
       443
     ];
 
-    useDHCP = true;
+    useDHCP = lib.mkForce true;
     networkmanager.ensureProfiles.profiles."Wired connection 3" = {
       connection = {
         id = "Wired connection 3";
