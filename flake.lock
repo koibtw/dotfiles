@@ -29,17 +29,17 @@
     },
     "anvim": {
       "inputs": {
-        "gift-wrap": "gift-wrap",
         "nixpkgs": [
           "nixpkgs"
-        ]
+        ],
+        "weave": "weave"
       },
       "locked": {
-        "lastModified": 1782752704,
-        "narHash": "sha256-tVPVRiNs2s5QQcRBlCWA39IRLmCflrzF37JOHctwGNo=",
+        "lastModified": 1784662860,
+        "narHash": "sha256-9ykY+l0Vd+mW2qaVspRFnXH9FeqAx2lolRJFvs5DGGc=",
         "ref": "refs/heads/main",
-        "rev": "5ef4c1e559083e4cbbf6785bd154b5c57a1e9b51",
-        "revCount": 90,
+        "rev": "5447e56e7b26d2af34ec908c041b7007abefa8c8",
+        "revCount": 96,
         "type": "git",
         "url": "https://git.koi.rip/koi/anvim"
       },
@@ -61,11 +61,11 @@
         "rev": "11a4d1eada9f983f44f2ca7ee37a22da72a3a7e4",
         "revCount": 13,
         "type": "git",
-        "url": "https://codeberg.org/koibtw/cuteff"
+        "url": "https://git.koi.rip/koi/cuteff"
       },
       "original": {
         "type": "git",
-        "url": "https://codeberg.org/koibtw/cuteff"
+        "url": "https://git.koi.rip/koi/cuteff"
       }
     },
     "darwin": {
@@ -97,38 +97,17 @@
         ]
       },
       "locked": {
-        "lastModified": 1782217826,
-        "narHash": "sha256-ksKft0t7XsaOV/oVtjXKsWU0TEEdMRgcDmZhNFNE6Ow=",
+        "lastModified": 1784301402,
+        "narHash": "sha256-TJCKzZguxOAAKxBS7LnD9P8x7XDPnTLGDeMNL460hEI=",
         "ref": "refs/heads/main",
-        "rev": "6f2e61e926760722630eed06fdfe63dcc0bed947",
-        "revCount": 85,
+        "rev": "8530473132da0570bab680e9e7bb359d5c02bc7c",
+        "revCount": 90,
         "type": "git",
         "url": "https://codeberg.org/evergarden/nix"
       },
       "original": {
         "type": "git",
         "url": "https://codeberg.org/evergarden/nix"
-      }
-    },
-    "gift-wrap": {
-      "inputs": {
-        "nixpkgs": [
-          "anvim",
-          "nixpkgs"
-        ]
-      },
-      "locked": {
-        "lastModified": 1773403464,
-        "narHash": "sha256-fckT48WShz/HqRgHgBKbVZCreC+Apfu3UqPZxFuL7Us=",
-        "owner": "tgirlcloud",
-        "repo": "gift-wrap",
-        "rev": "9499bc6e450d9959e2019f7122efd3b9077f333a",
-        "type": "github"
-      },
-      "original": {
-        "owner": "tgirlcloud",
-        "repo": "gift-wrap",
-        "type": "github"
       }
     },
     "home-manager": {
@@ -138,11 +117,11 @@
         ]
       },
       "locked": {
-        "lastModified": 1780593650,
-        "narHash": "sha256-CHo7k65YTL3HY+WQVedDTupji+LMgNlKCdrtRHZFAK4=",
+        "lastModified": 1785496534,
+        "narHash": "sha256-EASdusMYLuPhOCrE3LmsAGOvGhX3vnKBLxFvj9lI8tU=",
         "owner": "nix-community",
         "repo": "home-manager",
-        "rev": "447fd9ff62501dae7206dfe180ee89f8de27b7d5",
+        "rev": "e8827fbbb12015a8dd9f66285aec79d655bcb9f6",
         "type": "github"
       },
       "original": {
@@ -158,11 +137,11 @@
         ]
       },
       "locked": {
-        "lastModified": 1782998247,
-        "narHash": "sha256-scVjwUEVo7RniA/8y+2zr99NbTsc+4VzhMi5NzAVISE=",
+        "lastModified": 1783196314,
+        "narHash": "sha256-WgIFLhysKZJyJwn6fPvfSpbbLqFcZ4sSV1eAS80aVMQ=",
         "ref": "refs/heads/main",
-        "rev": "33bd0b93f6a8b11d294bcb9b16a85aa0a3fa61da",
-        "revCount": 43,
+        "rev": "ee0cd3d4479df956caa7d9f1b3fa64bebb8e1943",
+        "revCount": 44,
         "type": "git",
         "url": "https://git.koi.rip/koi/meowtd.git"
       },
@@ -185,11 +164,11 @@
         "xwayland-satellite-unstable": "xwayland-satellite-unstable"
       },
       "locked": {
-        "lastModified": 1780639821,
-        "narHash": "sha256-SOTuKPQ9HptaWKnd6pbiSOC3YyY2tXwCJ5sQwKUDldU=",
+        "lastModified": 1785494453,
+        "narHash": "sha256-nK6DCmFpPgaHweU2Y8BMxutfTihwXJ2XkxaoMZPBpMQ=",
         "owner": "sodiboo",
         "repo": "niri-flake",
-        "rev": "f92324f4e97776e141dc8a8ce4debc6c91b64038",
+        "rev": "68414146fbe13d8fce7748cf2f4e9e46e4834e2e",
         "type": "github"
       },
       "original": {
@@ -218,11 +197,11 @@
     "niri-unstable": {
       "flake": false,
       "locked": {
-        "lastModified": 1780637332,
-        "narHash": "sha256-FeKyLRxLZu2EUnhifijZPDZRl0sVnPVHMtizAINNiN4=",
+        "lastModified": 1784570726,
+        "narHash": "sha256-9EMn69JBcFWFgUM7f0VBAX+jBby5b9H3M59U75+5yI4=",
         "owner": "YaLTeR",
         "repo": "niri",
-        "rev": "f717ae030fe56fc52522ebef69f17f3f09064ac4",
+        "rev": "7f26c3ee804fb6ed458ef7fb0e3c794f14e0b3bc",
         "type": "github"
       },
       "original": {
@@ -233,12 +212,11 @@
     },
     "nixpkgs": {
       "locked": {
-        "lastModified": 1780243769,
-        "narHash": "sha256-x5UQuRsH3MqI0U9afaXSNqzTPSeZlRLvFAav2Ux1pNw=",
-        "owner": "NixOS",
-        "repo": "nixpkgs",
-        "rev": "331800de5053fcebacf6813adb5db9c9dca22a0c",
-        "type": "github"
+        "lastModified": 1785454630,
+        "narHash": "sha256-Lr/ImHlbXabw7KPWfXWY4kkiiHb24PkmBZVVIm28V/c=",
+        "rev": "1559d3daa3ecc813a650b79375ea61b6741b8746",
+        "type": "tarball",
+        "url": "https://releases.nixos.org/nixos/unstable/nixos-26.11pre1044798.1559d3daa3ec/nixexprs.tar.xz"
       },
       "original": {
         "id": "nixpkgs",
@@ -272,11 +250,11 @@
         ]
       },
       "locked": {
-        "lastModified": 1783838433,
-        "narHash": "sha256-Zb8+v76qSPYDlUea1y30YzgdEoDjA97vRmeqfPAqwZs=",
+        "lastModified": 1785048222,
+        "narHash": "sha256-LjFVfwxensz76SjnvofF1Jsw+xTLd8Qp31W0J6nh2XI=",
         "owner": "Gerg-L",
         "repo": "spicetify-nix",
-        "rev": "c6ab7371e40abd405313af9bddafd5f37cc94f83",
+        "rev": "17e524f330c282d31c32dfe076222d4a12277886",
         "type": "github"
       },
       "original": {
@@ -307,17 +285,38 @@
         ]
       },
       "locked": {
-        "lastModified": 1780539720,
-        "narHash": "sha256-i6PFqIUrelYBc0tbLk7dijbjm468uftlABHLKRcYO78=",
+        "lastModified": 1782904463,
+        "narHash": "sha256-5mUrtQCltJ3eJ92zfZQdON5DHbs56mpg5XRgjaN4Ti8=",
         "ref": "refs/heads/main",
-        "rev": "b981d1e78fb8ff8b6700d56e526081debec95100",
-        "revCount": 31,
+        "rev": "53f8f196314cdb1ada6666139573e59f8540be95",
+        "revCount": 32,
         "type": "git",
         "url": "https://tangled.org/did:plc:nz5npphohxgjo2blfipdatam/washing-machien"
       },
       "original": {
         "type": "git",
         "url": "https://tangled.org/did:plc:nz5npphohxgjo2blfipdatam/washing-machien"
+      }
+    },
+    "weave": {
+      "inputs": {
+        "nixpkgs": [
+          "anvim",
+          "nixpkgs"
+        ]
+      },
+      "locked": {
+        "lastModified": 1783685714,
+        "narHash": "sha256-9Y2qDe84xgob4eowplum0kWNlJM8n+SFzsU+E3SGIHQ=",
+        "ref": "refs/heads/main",
+        "rev": "a86f32ae53a625e03f9f8a4e96e64e5c3c0dd005",
+        "revCount": 22,
+        "type": "git",
+        "url": "https://codeberg.org/comfysage/weave.git"
+      },
+      "original": {
+        "type": "git",
+        "url": "https://codeberg.org/comfysage/weave.git"
       }
     },
     "xwayland-satellite-stable": {
@@ -340,11 +339,11 @@
     "xwayland-satellite-unstable": {
       "flake": false,
       "locked": {
-        "lastModified": 1779745227,
-        "narHash": "sha256-yqY7RtEJGJiENzR0GwL6q69tSAy6xAAmAcLuIhLjPf8=",
+        "lastModified": 1784679892,
+        "narHash": "sha256-Mb7jpqnrcYCfNSItIkkHpuR3YxWFxPuIBfcwNKlRBkk=",
         "owner": "Supreeeme",
         "repo": "xwayland-satellite",
-        "rev": "5d1efbc9dc3ab1c10160b656e0247f3325daf0f2",
+        "rev": "8d135d3b2854b30fd01ea6cd6c27e523dd50a839",
         "type": "github"
       },
       "original": {
@@ -363,11 +362,11 @@
         ]
       },
       "locked": {
-        "lastModified": 1780567926,
-        "narHash": "sha256-LVaiAnBwgr2YotaIlrcwCgmbwHsE2ccegRztLjur/d4=",
+        "lastModified": 1785432635,
+        "narHash": "sha256-LSb65DJoBk8ZDrg0xCfrOb3NnfsMLTC0kEAVpvlTG+Y=",
         "owner": "0xc000022070",
         "repo": "zen-browser-flake",
-        "rev": "eea9ae34eb9011aee9b8ce8ee2bc2dd111ee8285",
+        "rev": "aaf2c248c3a75dfd99ea96261675545a308a5b64",
         "type": "github"
       },
       "original": {

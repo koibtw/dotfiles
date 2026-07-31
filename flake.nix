@@ -16,7 +16,7 @@
     };
 
     cuteff = {
-      url = "git+https://codeberg.org/koibtw/cuteff";
+      url = "git+https://git.koi.rip/koi/cuteff";
       inputs.nixpkgs.follows = "nixpkgs";
     };
 
