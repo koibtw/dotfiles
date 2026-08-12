@@ -23,6 +23,8 @@
     device = "/dev/vda";
   };
 
+  boot.kernel.sysctl."net.core.somaxconn" = 4096;
+
   fileSystems."/" = {
     device = "/dev/disk/by-uuid/9bc4dce8-4cbe-49e2-bd9f-12542c3361fe";
     fsType = "ext4";
