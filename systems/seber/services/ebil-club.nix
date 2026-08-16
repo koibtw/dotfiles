@@ -133,6 +133,11 @@ in
     }
     // tls;
 
+    "git.ebil.club" = {
+      locations."/".return = "307 https://git.koi.rip$request_uri";
+    }
+    // tls;
+
     "ebil.club" = {
       locations = {
         "/" = {
