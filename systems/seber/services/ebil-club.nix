@@ -98,6 +98,13 @@ in
 {
   imports = [
     (mkSite {
+      name = "glorp.channel";
+      sshPubkeys = [
+        "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAID9feAlrIVPuVS28tz54/m7pZkjHHL5aVhV2qwBPPceT"
+      ];
+      canonical = "glorp.channel";
+    })
+    (mkSite {
       name = "seba";
       sshPubkeys = [
         "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIN7xlBanf8BNQXosqGT5QroBntpFUsy3g12fO/fPE414"
